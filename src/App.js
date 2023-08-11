@@ -133,7 +133,7 @@ function App() {
                         borderRadius: "50px",
                         minwidth: "300px",
                       }}
-                      onClick={()=>handleInternalLink("/submit")}
+                      onClick={()=>handleInternalLink("https://forms.gle/1BhEaMditAfgSAX76")}
                     >
                       <h4 className="p-2 pt-3 d-flex align-items-center justify-content-center">Go to submission page</h4>
                     </Button>
