@@ -1,0 +1,32 @@
+
+/* .gradient-background-footer {
+  background: linear-gradient(300deg, #006663d6, #111111d2);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+} */
+
+.fixed_footer {
+  width: 100%;
+  background: grey;
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+}
+.socialmedia {
+  margin-top: 15px;
+}
+a {
+  margin: 15px;
+}
