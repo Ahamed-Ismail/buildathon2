@@ -37,7 +37,7 @@ function App() {
       url: url,
     };
     try {
-      const response = await fetch("http://localhost:5000/upload", {
+      const response = await fetch("https://buildathonserver.onrender.com/submit", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -55,7 +55,7 @@ function App() {
   };
 
   async function fetchData() {
-    await fetch("http://localhost:5000/getitems")
+    await fetch("https://buildathonserver.onrender.com/getitems")
       .then((res) => res.json())
       .then((data) => setResult(data))
       .catch((err) => console.log(err));
